@@ -1,0 +1,42 @@
+.dash {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 90vh;
+}
+
+.accountdash {
+  background-color: white;
+  padding: 3em;
+  border-radius: 1em;
+  box-shadow: 0em 0.5em 1em black;
+  transition: ease 0.2s;
+}
+.accountdash:hover {
+  box-shadow: 0em 1em 2em black;
+}
+
+.recorddash {
+  background-color: white;
+  padding: 3em;
+  border-radius: 1em;
+  box-shadow: 0em 0.5em 1em black;
+  transition: ease 0.2s;
+}
+.recorddash:hover {
+  box-shadow: 0 1em 2em black;
+}
+
+@media only screen and (max-width: 768px) {
+  .dash {
+    flex-direction: column;
+  }
+
+  .accountdash {
+    padding: 2em;
+  }
+
+  .recorddash {
+    padding: 2em;
+  }
+}

@@ -1,0 +1,14 @@
+.register {
+  height: 90vh;
+}
+
+.regtitle {
+  font-size: 3em;
+  margin: 1em;
+}
+
+.regform {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

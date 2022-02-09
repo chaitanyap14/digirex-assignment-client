@@ -1,0 +1,9 @@
+.account {
+  min-height: 90vh;
+  align-items: center;
+}
+
+.accounttitle {
+  font-size: 3em;
+  margin: 1em;
+}

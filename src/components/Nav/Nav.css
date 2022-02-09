@@ -1,0 +1,65 @@
+.nav {
+  background: white;
+  padding: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 10vh;
+  transition: ease 0.2s;
+  box-shadow: 0 0.2em 2em black;
+}
+
+.nav:hover {
+  box-shadow: 0 1em 2em black;
+}
+
+.logo {
+  padding: 0 2em;
+  color: black;
+  transition: ease 0.2s;
+}
+
+.logo:hover {
+  cursor: pointer;
+  color: green;
+}
+
+.recordlink {
+  transition: ease 0.2s;
+  color: black;
+  font-size: 2em;
+}
+.recordlink:hover {
+  cursor: pointer;
+  color: green;
+}
+
+.accountlink {
+  color: black;
+  font-size: 2em;
+  transition: ease 0.2s;
+}
+
+.accountlink:hover {
+  cursor: pointer;
+  color: green;
+}
+
+.linklist {
+  display: flex;
+  list-style-type: none;
+}
+
+.linklist li {
+  padding: 0 2em;
+}
+
+@media only screen and (max-width: 465px) {
+  .logo {
+    padding: 0;
+  }
+
+  .linklist li {
+    padding: 0 1em;
+  }
+}
