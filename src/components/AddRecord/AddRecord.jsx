@@ -38,7 +38,9 @@ const AddRecord = (props) => {
     };
 
     axios
-      .post("http://localhost:5000/addrecord", { data })
+      .post("https://digirex-assignment-backend.herokuapp.com/addrecord", {
+        data,
+      })
       .then((res) => {
         setStatus(res.data.status);
       })

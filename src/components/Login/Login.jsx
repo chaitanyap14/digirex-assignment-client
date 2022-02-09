@@ -24,7 +24,11 @@ const Login = () => {
     e.preventDefault();
     const data = { email, pass };
     axios
-      .post("http://localhost:5000/login", { data }, { withCredentials: true })
+      .post(
+        "https://digirex-assignment-backend.herokuapp.com/login",
+        { data },
+        { withCredentials: true }
+      )
       .then((res) => {
         if (res.data.status === true) {
           setLogin(true);
