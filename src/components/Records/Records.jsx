@@ -36,6 +36,7 @@ const Records = (props) => {
       if (r.record_name.includes(filter.toLowerCase())) {
         newlist.push(r);
       }
+      return 0;
     });
     setFiltered(newlist);
   }, [filter, records]);
