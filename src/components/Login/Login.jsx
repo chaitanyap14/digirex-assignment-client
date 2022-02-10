@@ -30,11 +30,12 @@ const Login = () => {
         { withCredentials: true }
       )
       .then((res) => {
-        console.log(res);
         if (res.data.status === true) {
           setLogin(true);
+          console.log(res);
         } else {
           setLogin(false);
+          console.log(res);
         }
       })
       .catch((e) => {
