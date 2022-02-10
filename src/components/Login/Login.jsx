@@ -28,10 +28,8 @@ const Login = () => {
       .then((res) => {
         if (res.data.status === true) {
           setLogin(true);
-          console.log(res);
         } else {
           setLogin(false);
-          console.log(res);
         }
       })
       .catch((e) => {
