@@ -7,6 +7,8 @@
   height: 10vh;
   transition: ease 0.2s;
   box-shadow: 0 0.2em 2em black;
+  position: sticky;
+  top: 0;
 }
 
 .nav:hover {

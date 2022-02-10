@@ -54,7 +54,7 @@ const AddRecord = (props) => {
   } else {
     return (
       <div className="addrecord">
-        <h1>Add New Record</h1>
+        <h1 className="addrecordtitle">Add New Record</h1>
         <form action="" className="recordform" onSubmit={handleSubmit}>
           <input
             type="text"
@@ -88,7 +88,9 @@ const AddRecord = (props) => {
             onChange={handleNotes}
             maxLength="255"
           ></textarea>
-          <button type="submit">Add</button>
+          <button type="submit" className="btn">
+            Add
+          </button>
         </form>
       </div>
     );
