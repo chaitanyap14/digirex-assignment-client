@@ -1,5 +1,10 @@
 Just clone this repo on your system, then run `npm install`. To run the app, run `npm start`.
 
+This is the client side for a medical records application.
+Users can register, login, add records, filter stored records by disease name, logout, edit account info and delete their account.
+I have used axios to communicate with server.
+The pop-up notifications are from react-toastify.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
