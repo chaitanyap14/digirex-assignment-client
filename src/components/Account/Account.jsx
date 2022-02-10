@@ -20,7 +20,7 @@ const Account = (props) => {
 
   const deleteAcc = () => {
     axios
-      .post("https://digirex-assignment-backend.herokuapp.com/deleteacc", {
+      .post("http://localhost:5003/deleteacc", {
         email: props.userdata.email,
       })
       .then((res) => {
@@ -41,7 +41,7 @@ const Account = (props) => {
 
   useEffect(() => {
     axios
-      .post("https://digirex-assignment-backend.herokuapp.com/account", {
+      .post("http://localhost:5003/account", {
         email: props.userdata.email,
       })
       .then((res) => {

@@ -32,7 +32,7 @@ function App() {
     try {
       const token = Cookies.get("jwt_token");
       axios
-        .post("https://digirex-assignment-backend.herokuapp.com/auth", {
+        .post("http://localhost:5003/auth", {
           token,
         })
         .then((res) => {

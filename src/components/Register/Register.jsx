@@ -46,7 +46,7 @@ const Register = () => {
     };
 
     axios
-      .post("https://digirex-assignment-backend.herokuapp.com/register", {
+      .post("http://localhost:5003/register", {
         data,
       })
       .then((res) => {

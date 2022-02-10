@@ -47,7 +47,7 @@ const Update = (props) => {
     };
 
     axios
-      .post("https://digirex-assignment-backend.herokuapp.com/update", {
+      .post("http://localhost:5003/update", {
         data,
       })
       .then((res) => {

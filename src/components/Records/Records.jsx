@@ -43,7 +43,7 @@ const Records = (props) => {
 
   useEffect(() => {
     axios
-      .post("https://digirex-assignment-backend.herokuapp.com/records", {
+      .post("http://localhost:5003/records", {
         email,
       })
       .then((res) => {
